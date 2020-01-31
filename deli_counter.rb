@@ -20,3 +20,4 @@ def now_serving(deli)
     puts "The line is currently empty."
   else 
     puts "Currently serving #{deli[0]}"
+    deli.shift

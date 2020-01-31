@@ -12,4 +12,4 @@ end
 
 def take_a_number(deli, person)
   deli << person
-  
+  puts "Welcome, . You are number  in line"

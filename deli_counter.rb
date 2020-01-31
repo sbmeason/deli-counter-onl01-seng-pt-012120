@@ -5,7 +5,7 @@ def line(deli)
     str = "The line is currently:"
     deli.each.with_index(1) do |person, i|
       puts "#{i}. #{person}"
-      str += " #{i}"
+      str += " #{i}, #{person}."
   end
 end
 end

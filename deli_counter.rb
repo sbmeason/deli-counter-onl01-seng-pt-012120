@@ -3,6 +3,6 @@ def line(deli)
     puts "The line is currently empty."
   else
     deli.each.with_index(1) do |person, i|
-      puts "#{i}"
+      puts "#{i}. #{person}"
   end
 end

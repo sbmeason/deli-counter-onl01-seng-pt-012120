@@ -7,5 +7,5 @@ def line(deli)
       puts "#{i}. #{person}"
       str += " #{i}. #{person}"
   end
-end
+  put str
 end

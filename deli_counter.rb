@@ -6,3 +6,4 @@ def line(deli)
       puts "#{i}. #{person}"
   end
 end
+end

@@ -9,3 +9,4 @@ def line(deli)
   end
   put str
 end
+end
